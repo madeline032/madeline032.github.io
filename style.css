@@ -1,0 +1,181 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #33693F;
+    height: 100px;
+    
+}
+header ul{
+    display:flex;
+    align-items: center;
+    
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+.login{
+    position: relative;
+    right: -50%;
+    top: 30px;
+
+}
+.texto {
+    background-color: #4F3524;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    
+   
+}
+.ball{
+    background-color: rgb(206, 205, 205);
+    width: 250px;
+    height: 250px;
+    clip-path: circle();
+    margin: 5%;
+    margin-left: 15%;
+
+}
+.ball > .imagen{
+    width: 100%;
+    height: 100%;
+}
+.bio h1 {
+  
+  background-color: rgb(245, 243, 233);
+  color: rgb(10, 10, 10);
+  text-align: justify;
+  width: 800px;
+  height: 150px;
+  font-size: 15px;
+  margin-right: -35%;
+  margin-left: 35%;
+  position: relative;
+  border-radius: 1em;
+  left: auto;
+  margin-right: 25%;
+  margin-top:  -260px;
+  letter-spacing: 1px;
+
+
+}
+h1{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+
+.CV-made{
+    background-color: rgb(78, 58, 10);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 1em;
+    height: 70px;
+    max-width: 798px;
+    position: relative;
+    left: 32%;
+    bottom: 45%;
+   
+
+
+
+}
+.btn{
+    display:flex;
+    justify-content:space-around;
+    text-decoration: none;
+    
+   
+
+   
+}
+.CVmade{
+   margin: 50px;
+   padding: 11px 370px;
+   position: relative;
+   top: -75px;
+   border-radius: 0.5em;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   font-size: 30px;
+   background-color: rgb(245, 243, 233);
+ 
+
+}
+h2  h3{
+    font-size:30px;
+    font-weight: 600;
+    padding-right: 30%;
+    padding-top: 15px;
+    margin-top: 15px 13px;
+    margin: 15px;
+    
+}
+
+
+.made{
+    background-color:rgb(227, 236, 197);
+    font-size:19.0px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    padding-top: 30px;
+    border-radius: 1em;
+    
+    
+
+}
+.made{
+    position: relative;
+    left: 35%;
+    
+}
+.made{
+    display:inline-block;
+    justify-self: start;
+    margin: 5px;  
+    
+}
+.foo{
+    
+    color: white;
+    padding: 40px;
+    
+}
+footer{
+    background-color: black;
+    margin-top: 45px;
+    width: 100%;
+    height: 150px;
+}
+@media(max-width:600px){
+    .content{
+        padding: 1em;
+    }
+}
+
+
+@media(max-width:550px){
+    .content{
+        height: 500px;
+    }
+}
+   
